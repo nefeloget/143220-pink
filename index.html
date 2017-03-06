@@ -4,9 +4,229 @@
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
   </head>
-  <body>
+  <body class="page">
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+    <header class="page-header">
+      <div class="container">
+        <div class="small-2">
+          <a>
+            <img class="page-header__logo" src="http://placehold.it/75x22" width="75" height="22" alt="Приложение «Pink»">
+          </a>
+        </div>
+        <div class="small-2">
+          <nav class="main-nav">
+            <button class="main-nav__toggle js-burger" type="button">
+              <span class="visually-hidden js-burger__text">Открыть меню</span>
+            </button>
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a class="main-nav__link">Главная</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="photo.html">Фотографии</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="form.html">Конкурс</a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">HTML Academy</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="promo">
+        <div class="container">
+          <div class="small-4">
+            <h1 class="promo__text">
+             <span class="visually-hidden">Приложение «Pink» для обмена фотографиями с элементами социальной сети</span>
+             <span class="visually-hidden">Взгляните на жизнь иначе!</span>
+            </h1>
+          </div>
+          <div class="small-4">
+            <img src="http://placehold.it/320x314" width="320" height="314" alt="Рука с телефоном">
+          </div>
+        </div>
+
+        <div class="container">
+          <h2 class="visually-hidden">Скачать приложение</h2>
+          <div class="small-4">
+            <div class="promo__wrap">
+              <a class="btn btn--white" href="https://itunes.apple.com/app/apple-store/id375380948?pt=2003&ct=footer&mt=8">Скачать приложение</a>
+              <div class="promo-list">
+                <a class="promo-list__link" href="https://itunes.apple.com/app/apple-store/id375380948?pt=2003&ct=footer&mt=8">
+                  <span class="visually-hidden">Скачать в Apple Store</span>
+                </a>
+                <a class="promo-list__link" href="https://play.google.com/store">
+                  <span class="visually-hidden">Скачать на Google Play</span>
+                </a>
+                <a class="promo-list__link" href="https://www.microsoft.com/store/apps/windows-phone">
+                  <span class="visually-hidden">Скачать в Windows Store</span>
+                </a>
+                <div class="promo-list__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <div class="container">
+          <div class="small-4">
+            <h3 class="advantages__header-block">Устали от серости мегаполиса?</h3>
+            <h3 class="advantages__header-block">Нам есть, что вам предложить!</h3>
+          </div>
+        </div>
+        <div class="advantages__wrap">
+          <div class="container">
+            <div class="small-4">
+              <h4 class="advantages__header-item">Поднимает настроение</h4>
+              <p class="advantages__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            </div>
+            <div class="small-4">
+              <h4 class="advantages__header-item">Поднимает настроение</h4>
+              <p class="advantages__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </div>
+            <div class="small-4">
+              <h4 class="advantages__header-item">Заводит новых друзей</h4>
+              <p class="advantages__text">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+            </div>
+          </div>
+          <img class="advantages__img" src="http://placehold.it/157x320" width="157" height="320" alt="Телефон «Всем привет!»">
+        </div>
+      </section>
+
+      <section class="review">
+        <h2 class="visually-hidden">Отзывы</h2>
+        <div class="slider">
+          <div class="container">
+            <div class="small-4 slider__item">
+              <h3 class="review__author">Николай Петров</h3>
+              <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </div>
+            <div class="small-4 slider__item">
+              <h3 class="review__author">Николай Петров</h3>
+              <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </div>
+            <div class="small-4 slider__item">
+              <h3 class="review__author">Николай Петров</h3>
+              <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </div>
+          </div>
+
+          <div class="slider__controls">
+            <button class="slider__controls-toggle slider__controls-toggle--active" type="button"></button>
+            <button class="slider__controls-toggle" type="button"></button>
+            <button class="slider__controls-toggle" type="button"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="price">
+        <h2 class="visually-hidden">Тарифные пакеты</h2>
+        <div class="container slider">
+          <table class="price__table">
+            <tr class="price__header-tr">
+              <th class="price__title">
+                <span class="price__package">База</span>
+                <span class="price__cost ">1,99 USD</span>
+              </th>
+              <th class="price__title price__title--popular">
+                <span class="price__package">Стандарт</span>
+                <span class="price__cost">3,99 USD</span>
+              </th>
+              <th class="price__title">
+                <span class="price__package">Анлим</span>
+                <span class="price__cost">9,99 USD</span>
+              </th>
+            </tr>
+            <tr class="price__tr">
+              <td class="price__option">Розовый фильтр
+                <span class="price__icon price__icon--yes">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </td>
+              <td class="price__option">Розовый фильтр
+                <span class="price__icon price__icon--yes">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </td>
+              <td class="price__option">Розовый фильтр
+                <span class="price__icon price__icon--yes">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </td>
+            </tr>
+            <tr class="price__tr">
+              <td class="price__option">Смайлики
+                <span class="price__icon price__icon--no">
+                  <span class="visually-hidden">Нет</span>
+                </span>
+              </td>
+              <td class="price__option">Смайлики
+                <span class="price__icon price__icon--yes">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </td>
+              <td class="price__option">Смайлики
+                <span class="price__icon price__icon--yes">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </td>
+            </tr>
+            <tr class="price__tr">
+              <td class="price__option">Комментарии
+                <span class="price__icon price__icon--no">
+                  <span class="visually-hidden">Нет</span>
+                </span>
+              </td>
+              <td class="price__option">Комментарии
+                <span class="price__icon price__icon--no">
+                  <span class="visually-hidden">Нет</span>
+                </span>
+              </td>
+              <td class="price__option">Комментарии
+                <span class="price__icon price__icon--yes">
+                  <span class="visually-hidden">Да</span>
+                </span>
+              </td>
+            </tr>
+          </table>
+
+          <div class="slider__controls">
+            <button class="slider__controls-toggle" type="button"></button>
+            <button class="slider__controls-toggle slider__controls-toggle--active" type="button"></button>
+            <button class="slider__controls-toggle" type="button"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <section class="contacts">
+        <p class="contacts__title">Остались вопросы?</p>
+        <p class="contacts__title">Свяжитесь с нами!</p>
+        <div class="contacts__block">
+          <p class="contacts__header">Звоните:</p>
+          <a class="contacts__text" href="tel:+78125556666">+7(812) 555-66-66</a>
+        </div>
+        <div class="contacts__block">
+          <p class="contacts__header">Пишите:</p>
+          <a class="contacts__text" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </div>
+        <div class="contacts__block">
+          <p class="contacts__header">Приезжайте в гости:</p>
+          <span class="contacts__text">ул. Большая Конюшенная, 19/8</span>
+        </div>
+      </section>
+      <section class="page-footer__map">
+        <img class="map" src="http://placehold.it/320x314" width="320" height="645" alt="Карта">
+      </section>
+    </footer>
 
   </body>
 </html>
