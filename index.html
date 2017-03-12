@@ -7,115 +7,73 @@
   <body class="page">
 
     <header class="page-header">
-      <div class="container">
-        <div class="small-2">
-          <a>
-            <img class="page-header__logo" src="http://placehold.it/75x22" width="75" height="22" alt="Приложение «Pink»">
-          </a>
-        </div>
-        <div class="small-2">
-          <nav class="main-nav">
-            <button class="main-nav__toggle js-burger" type="button">
-              <span class="visually-hidden js-burger__text">Открыть меню</span>
-            </button>
-            <ul class="main-nav__list">
-              <li class="main-nav__item">
-                <a class="main-nav__link">Главная</a>
-              </li>
-              <li class="main-nav__item">
-                <a class="main-nav__link" href="photo.html">Фотографии</a>
-              </li>
-              <li class="main-nav__item">
-                <a class="main-nav__link" href="form.html">Конкурс</a>
-              </li>
-              <li class="main-nav__item">
-                <a class="main-nav__link" href="#">HTML Academy</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+      <img class="page-header__logo" src="http://placehold.it/75x22" width="75" height="22" alt="Приложение «Pink»">
+      <nav class="main-nav">
+        <button class="main-nav__toggle js-burger" type="button">Открыть меню</button>
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a class="main-nav__link">Главная</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="photo.html">Фотографии</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="form.html">Конкурс</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="#">HTML Academy</a></li>
+        </ul>
+      </nav>
 
-    <main class="page-main">
       <section class="promo">
-        <div class="container">
-          <div class="small-4">
-            <h1 class="promo__text">
-             <span class="visually-hidden">Приложение «Pink» для обмена фотографиями с элементами социальной сети</span>
-             <span class="visually-hidden">Взгляните на жизнь иначе!</span>
-            </h1>
-          </div>
-          <div class="small-4">
-            <img src="http://placehold.it/320x314" width="320" height="314" alt="Рука с телефоном">
-          </div>
+        <div class="promo-wrap">
+          <h1 class="promo__text">Взгляните на жизнь иначе!</h1>
         </div>
 
-        <div class="container">
+        <div class="promo-wrap promo-wrap-bg">
           <h2 class="visually-hidden">Скачать приложение</h2>
-          <div class="small-4">
-            <div class="promo__wrap">
-              <a class="btn btn--white" href="https://itunes.apple.com/app/apple-store/id375380948?pt=2003&ct=footer&mt=8">Скачать приложение</a>
-              <div class="promo-list">
-                <a class="promo-list__link" href="https://itunes.apple.com/app/apple-store/id375380948?pt=2003&ct=footer&mt=8">
-                  <span class="visually-hidden">Скачать в Apple Store</span>
-                </a>
-                <a class="promo-list__link" href="https://play.google.com/store">
-                  <span class="visually-hidden">Скачать на Google Play</span>
-                </a>
-                <a class="promo-list__link" href="https://www.microsoft.com/store/apps/windows-phone">
-                  <span class="visually-hidden">Скачать в Windows Store</span>
-                </a>
-                <div class="promo-list__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</div>
-              </div>
-            </div>
+          <a class="btn btn--white" href="https://itunes.apple.com/app/apple-store/id375380948?pt=2003&ct=footer&mt=8">Скачать приложение</a>
+          <div class="promo-list">
+            <a class="promo-list__link" href="https://itunes.apple.com/app/apple-store/id375380948?pt=2003&ct=footer&mt=8">Скачать в Apple Store</a>
+            <a class="promo-list__link" href="https://play.google.com/store">Скачать на Google Play</a>
+            <a class="promo-list__link" href="https://www.microsoft.com/store/apps/windows-phone">Скачать в Windows Store</a>
+            <p class="promo-list__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
           </div>
         </div>
       </section>
+    </header>
 
+    <main class="page-main">
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
-        <div class="container">
-          <div class="small-4">
-            <h3 class="advantages__header-block">Устали от серости мегаполиса?</h3>
-            <h3 class="advantages__header-block">Нам есть, что вам предложить!</h3>
-          </div>
+        <div class="advantages__wrap">
+          <h3 class="advantages__header-block">Устали от серости мегаполиса?</h3>
+          <h3 class="advantages__header-block">Нам есть, что вам предложить!</h3>
         </div>
         <div class="advantages__wrap">
-          <div class="container">
-            <div class="small-4">
-              <h4 class="advantages__header-item">Поднимает настроение</h4>
-              <p class="advantages__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-            </div>
-            <div class="small-4">
-              <h4 class="advantages__header-item">Поднимает настроение</h4>
-              <p class="advantages__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-            </div>
-            <div class="small-4">
-              <h4 class="advantages__header-item">Заводит новых друзей</h4>
-              <p class="advantages__text">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
-            </div>
+          <div class="advantages__item">
+            <h4 class="advantages__header-item">Поднимает настроение</h4>
+            <p class="advantages__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
           </div>
-          <img class="advantages__img" src="http://placehold.it/157x320" width="157" height="320" alt="Телефон «Всем привет!»">
+          <div class="advantages__item">
+            <h4 class="advantages__header-item">Поднимает настроение</h4>
+            <p class="advantages__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </div>
+          <div class="advantages__item">
+            <h4 class="advantages__header-item">Заводит новых друзей</h4>
+            <p class="advantages__text">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+          </div>
+          <div class="advantages__img"></div>
         </div>
       </section>
 
       <section class="review">
         <h2 class="visually-hidden">Отзывы</h2>
         <div class="slider">
-          <div class="container">
-            <div class="small-4 slider__item">
-              <h3 class="review__author">Николай Петров</h3>
-              <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-            </div>
-            <div class="small-4 slider__item">
-              <h3 class="review__author">Николай Петров</h3>
-              <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-            </div>
-            <div class="small-4 slider__item">
-              <h3 class="review__author">Николай Петров</h3>
-              <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-            </div>
+          <div class="review__item slider__item">
+            <h3 class="review__author">Николай Петров</h3>
+            <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </div>
+          <div class="review__item slider__item">
+            <h3 class="review__author">Николай Петров</h3>
+            <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </div>
+          <div class="review__item slider__item">
+            <h3 class="review__author">Николай Петров</h3>
+            <p class="review__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
           </div>
 
           <div class="slider__controls">
@@ -128,74 +86,40 @@
 
       <section class="price">
         <h2 class="visually-hidden">Тарифные пакеты</h2>
-        <div class="container slider">
-          <table class="price__table">
-            <tr class="price__header-tr">
-              <th class="price__title">
-                <span class="price__package">База</span>
-                <span class="price__cost ">1,99 USD</span>
-              </th>
-              <th class="price__title price__title--popular">
-                <span class="price__package">Стандарт</span>
-                <span class="price__cost">3,99 USD</span>
-              </th>
-              <th class="price__title">
-                <span class="price__package">Анлим</span>
-                <span class="price__cost">9,99 USD</span>
-              </th>
-            </tr>
-            <tr class="price__tr">
-              <td class="price__option">Розовый фильтр
-                <span class="price__icon price__icon--yes">
-                  <span class="visually-hidden">Да</span>
-                </span>
-              </td>
-              <td class="price__option">Розовый фильтр
-                <span class="price__icon price__icon--yes">
-                  <span class="visually-hidden">Да</span>
-                </span>
-              </td>
-              <td class="price__option">Розовый фильтр
-                <span class="price__icon price__icon--yes">
-                  <span class="visually-hidden">Да</span>
-                </span>
-              </td>
-            </tr>
-            <tr class="price__tr">
-              <td class="price__option">Смайлики
-                <span class="price__icon price__icon--no">
-                  <span class="visually-hidden">Нет</span>
-                </span>
-              </td>
-              <td class="price__option">Смайлики
-                <span class="price__icon price__icon--yes">
-                  <span class="visually-hidden">Да</span>
-                </span>
-              </td>
-              <td class="price__option">Смайлики
-                <span class="price__icon price__icon--yes">
-                  <span class="visually-hidden">Да</span>
-                </span>
-              </td>
-            </tr>
-            <tr class="price__tr">
-              <td class="price__option">Комментарии
-                <span class="price__icon price__icon--no">
-                  <span class="visually-hidden">Нет</span>
-                </span>
-              </td>
-              <td class="price__option">Комментарии
-                <span class="price__icon price__icon--no">
-                  <span class="visually-hidden">Нет</span>
-                </span>
-              </td>
-              <td class="price__option">Комментарии
-                <span class="price__icon price__icon--yes">
-                  <span class="visually-hidden">Да</span>
-                </span>
-              </td>
-            </tr>
-          </table>
+        <div class="slider">
+          <div class="price__wrap">
+            <table class="price__table">
+              <tr class="price__header-tr">
+                <th class="price__title">
+                  <span class="price__package">База</span>
+                  <span class="price__cost ">1,99 USD</span>
+                </th>
+                <th class="price__title price__title--popular">
+                  <span class="price__package">Стандарт</span>
+                  <span class="price__cost">3,99 USD</span>
+                </th>
+                <th class="price__title">
+                  <span class="price__package">Анлим</span>
+                  <span class="price__cost">9,99 USD</span>
+                </th>
+              </tr>
+              <tr class="price__tr">
+                <td class="price__option">Розовый фильтр<span class="price__icon price__icon--yes">Да</span></td>
+                <td class="price__option">Розовый фильтр<span class="price__icon price__icon--yes">Да</span></td>
+                <td class="price__option">Розовый фильтр<span class="price__icon price__icon--yes">Да</span></td>
+              </tr>
+              <tr class="price__tr">
+                <td class="price__option">Смайлики<span class="price__icon price__icon--no">Нет</span></td>
+                <td class="price__option">Смайлики<span class="price__icon price__icon--yes">Да</span></td>
+                <td class="price__option">Смайлики<span class="price__icon price__icon--yes">Да</span></td>
+              </tr>
+              <tr class="price__tr">
+                <td class="price__option">Комментарии<span class="price__icon price__icon--no">Нет</span></td>
+                <td class="price__option">Комментарии<span class="price__icon price__icon--no">Нет</span></td>
+                <td class="price__option">Комментарии<span class="price__icon price__icon--yes">Да</span></td>
+              </tr>
+            </table>
+          </div>
 
           <div class="slider__controls">
             <button class="slider__controls-toggle" type="button"></button>
@@ -224,7 +148,7 @@
         </div>
       </section>
       <section class="page-footer__map">
-        <img class="map" src="http://placehold.it/320x314" width="320" height="645" alt="Карта">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d840.3627413869483!2d30.322185058080315!3d59.93661064000762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631057d105877%3A0x91c16b0cf63dfa74!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQu9C40YbQsA!5e0!3m2!1sru!2sru!4v1489300237870" width="320" height="314" frameborder="0" style="border:0" allowfullscreen></iframe>
       </section>
     </footer>
 
